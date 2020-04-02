@@ -7,7 +7,6 @@
    
    def initialize(parse)
      @parse = parse
-     @emails = emails
     end
     
     def emails()
