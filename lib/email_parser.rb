@@ -10,7 +10,7 @@
     end
     
     def emails()
-      emails.to_a
+      @emails.split(/ |, |,/).uniq
     end
      
  end
